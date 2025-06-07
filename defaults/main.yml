@@ -1,6 +1,9 @@
 ---
 potos_basics_client_name: "{{ potos_plays_client_short_name | default('potos') }}"
 
+# Ansible version to be used
+potos_basics_ansible_version: "2.12.10"
+
 potos_basics_ansible_workdir: "/var/lib/{{ potos_basics_client_name | lower }}/ansible"
 potos_basics_ansible_virtenvdir: "/var/lib/{{ potos_basics_client_name | lower }}/virtenv"
 potos_basics_ansible_logdir: "/var/log/{{ potos_basics_client_name | lower }}"

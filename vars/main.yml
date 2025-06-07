@@ -12,6 +12,3 @@ potos_basics_packages:
  - "python3-pip"         # pip for python3
  - "python3-virtualenv"  # virtualenv for python3
  - "bsdutils"            # wall
-
-# Ansible version to be used
-potos_basics_ansible_version: "2.12.10"
